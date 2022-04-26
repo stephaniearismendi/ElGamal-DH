@@ -23,8 +23,8 @@ def ExtendedEuclideanAlgorithm(a, b):
         x = x2 - q * x1 # x = x2 - q * x1
         y = y2 - q * y1 # y = y2 - q * y1
         # update values
-        a = b # a = b
-        b = r # b = r 
+        a = b # a = quotient
+        b = r # b = rest
         x2 = x1 # x2 = x1
         x1 = x # x1 = x
         y2 = y1 # y2 = y1
